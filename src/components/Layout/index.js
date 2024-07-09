@@ -16,7 +16,7 @@ export function Layout() {
             </div>
             
 
-            <div className="box"> 
+            <div className="box" style={{margin: "20px 0"}}> 
                 <Feed />
             </div>
 

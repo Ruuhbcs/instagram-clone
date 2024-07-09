@@ -65,7 +65,7 @@ export function Storie() {
             <div>
                 <img src={perfil7} className="imgUserStorie" alt='Chewbacca'/>
                 </div>
-                <span>Chewbacca</span>
+                <span>Chewie</span>
             </div>
 
             <div className="userElements">
