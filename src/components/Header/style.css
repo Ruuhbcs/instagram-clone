@@ -1,0 +1,46 @@
+.header{
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border);
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 90%;
+    max-width: 957px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 110px;
+    cursor: pointer;
+}
+
+.inputFake{
+    background-color: var(--background-main);
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.inputFake input{
+    font-size: 14px;
+    padding: 0 7px;
+}
+
+.menuIcons{
+    gap: 16px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.menuIcons .imgUser{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
