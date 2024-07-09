@@ -1,4 +1,7 @@
 import './style.css';
+import { FiMoreHorizontal } from "react-icons/fi";
+import perfil1 from '../Storie/leia-perfil.png'
+import post1 from './leia-hansolo-foto.jpeg'
 
 
 export function Feed() {
@@ -6,13 +9,18 @@ export function Feed() {
         <>
             <header>
 
-                <div className="infosPost">
-                    <p>Leiazinha</p>
-                    
-
+                <div className="post">
+                    <img src={ perfil1 } alt='Leia'/>
+                    <p>PrincesaRebeldeLeia</p>
                 </div>
 
+                <FiMoreHorizontal />
             </header>
+
+            <div className='imgPost'>
+                <img src={ post1 } alt='Post princesa Leia com Han Solo' />
+
+            </div>
         </>
     )
 }
