@@ -1,4 +1,3 @@
-import { Feed } from './components/Feed';
 import { Header } from './components/Header';
 import { Layout } from './components/Layout';
 import './styles/global.css';
