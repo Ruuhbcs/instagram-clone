@@ -1,6 +1,7 @@
 header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 15px;
 }
 
@@ -19,5 +20,44 @@ header img{
 .imgPost img{
     width: 100%;
     object-fit: cover;
+}
 
+.infoPost{
+    padding: 10px 15px;
+}
+
+.iconsPost{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoPost .iconsOne{
+    display: flex;
+    gap: 16px;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.like{
+    margin-top: 6px;
+}
+
+.like span{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.legend{
+    margin: 6px 0 3px;
+}
+.legend p strong{
+    font-weight: 500;
+}
+
+.timePost time{
+    font-size: 11px;
+    color: var(--secondary);
 }
