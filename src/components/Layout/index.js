@@ -1,6 +1,7 @@
 import "./style.css";
 import { Storie } from "../Storie";
 import { Feed } from "../Feed";
+import { Suggestion } from "../Suggestion";
 
 export function Layout() {
 
@@ -21,7 +22,7 @@ export function Layout() {
             </div>
 
             <div className="boxSugestao" style={{gridArea: "secondColumn"}}> 
-                sugestão
+                <Suggestion />
             </div>
         </div>
 
