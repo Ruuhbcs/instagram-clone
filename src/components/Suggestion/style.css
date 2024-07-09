@@ -1,3 +1,7 @@
+.containerSuggestion{
+    margin-top: 18px;
+}
+
 .headerSuggestion{
     display: flex;
     align-items: center;
@@ -33,4 +37,75 @@
 .userInfosSuggestion .infos p{
     font-size: 13px;
     color: var(--secondary);
+}
+
+.headerMainSuggestion{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 10px 0;
+}
+
+.headerMainSuggestion p{
+    font-size: 15px;
+    color: var(--secondary);
+    font-weight: 500;
+}
+
+.headerMainSuggestion span{
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.userSuggestion{
+    margin-top: 5px;
+}
+
+.infosSuggestion img{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.infosSuggestion{
+    margin: 15px 0 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.infoSuggestion{
+    flex: 1;
+}
+
+.infoSuggestion span{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.infoSuggestion p{
+    font-size: 13px;
+    color: var(--secondary);
+    margin-top: 3px;
+}
+
+.infosSuggestion .follow{
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--quartary);
+    font-weight: 500;
+}
+
+.footerSuggestion{
+    margin-top: 25px;
+    flex: 1;
+}
+
+.footerSuggestion p{
+    font-size: 10px;
+    color: var(--tertiary);
+    margin-bottom: 15px;
+    cursor: pointer;
 }

@@ -21,8 +21,10 @@ export function Layout() {
                 <Feed />
             </div>
 
-            <div className="boxSugestao" style={{gridArea: "secondColumn"}}> 
+            <div style={{gridArea: "secondColumn"}}> 
+                <div  className="boxSugestao">
                 <Suggestion />
+                </div>
             </div>
         </div>
 
