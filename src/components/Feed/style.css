@@ -61,3 +61,27 @@ header img{
     font-size: 11px;
     color: var(--secondary);
 }
+
+.comment{
+    border-top: 1px solid var(--border-secondary);
+    margin-top: 8px;
+    display: flex;
+}
+
+.commentFake{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+}
+
+.commentFake input{
+    font-size: 16px;
+}
+
+.comment button{
+    color: var(--quartary);
+    cursor: pointer;
+    font-weight: 500;
+}

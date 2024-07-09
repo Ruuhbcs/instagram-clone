@@ -4,6 +4,7 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { BsChat } from "react-icons/bs";
 import { BsSend } from "react-icons/bs";
 import { BsBookmark } from "react-icons/bs";
+import { BsEmojiSmile } from "react-icons/bs";
 import perfil1 from '../Storie/leia-perfil.png';
 import post1 from './leia-hansolo-foto.jpeg';
 import { IconContext } from 'react-icons';
@@ -62,6 +63,20 @@ export function Feed() {
 
                 <div className='timePost'>
                     <time>HÁ 2 HORAS</time>
+                </div>
+
+                <div className='comment'>
+                    <div className='commentFake'>
+                        <IconContext.Provider value={{ size: '25px' }}>
+                            <div className='icon'>
+                                <BsEmojiSmile />
+                            </div>
+                        </IconContext.Provider>
+
+                        <input placeholder='Adicione um comentário...' />
+
+                    </div>
+                    <button>Publicar</button>
                 </div>
             </div>
         </>
